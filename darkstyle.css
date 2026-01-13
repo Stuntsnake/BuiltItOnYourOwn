@@ -1,0 +1,144 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: midnightblue;
+    text-align: center;
+    padding: 0px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+}
+
+a:hover {
+    background-color: black;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+section#educational {
+    background-color: black;
+    float: left;
+    width: 75%;
+    height: 15%;
+}
+
+section#educational p {
+    padding: 5px;
+}
+
+aside#educational img {
+    height: 85%;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+aside#educational{
+    float: right;
+    background-color: black;
+    width: 25%;
+    height: 15%;
+    align-content: center;
+}
+
+section#community {
+    float: right;
+    width: 75%;
+    height: 20%;
+}
+
+section#community p{
+    padding: 5px;
+}
+
+aside#community img {
+    height: 85%;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+aside#community{
+    float: left;
+    width: 25%;
+    height: 20%;
+    align-content: center;
+}
+
+section#upcoming {
+    background-color: black;
+    float: left;
+    width: 75%;
+    height: 30%;
+}
+
+aside#upcoming img {
+    height: 85%;
+    padding: 15px 40px;
+    border-radius: 15%;
+}
+
+aside#upcoming{
+    float: right;
+    background-color: black;
+    width: 25%;
+    height: 30%;
+}
+
+section#upcoming table#schedule{
+    display: block;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+    border: 2px black solid;
+    margin-left: 50px;
+    border-collapse: collapse;
+}
+
+section#upcoming table#schedule th, section#upcoming table#schedule td{
+    width: 20%;
+    border: 2px midnightblue solid;
+    border-collapse: collapse;
+}
+
+section#upcoming table#schedule thead{
+    background-color: midnightblue;
+}
+
+section#upcoming table#schedule td.important{
+        background-color: rgb(104, 63, 201)
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0;
+    padding-top: 30%;
+
+}
+
+button{
+    background-color: gray;
+}
