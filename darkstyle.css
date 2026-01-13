@@ -12,14 +12,15 @@ header {
 nav {
     background-color: midnightblue;
     text-align: center;
-    padding: 0px;
+    padding: 10px;
+    height: 100%;
 }
 
 a {
-    display: block;
     text-decoration: none;
-    padding: 0px 20px;
+    padding: 15px 20px;
     color: white;
+    height: 100%;
 }
 
 a:hover {
@@ -140,5 +141,8 @@ footer p{
 }
 
 button{
-    background-color: gray;
+    background-color: gray;}
+
+nav{
+    height: 20px;
 }
